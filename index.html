@@ -6,10 +6,15 @@
 <title>Movees - Unlimited Streaming</title>
 
 <style>
-  .hero {
-  margin-top: 60px;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: white;
 }
-  .navbar {
+
+/* NAVBAR */
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,17 +28,10 @@
 .logo {
   height: 40px;
 }
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #000;
-  color: white;
-}
-<div class="navbar">
-  <img src="logo.png" class="logo">
-</div>
-  
+
+/* HERO */
 .hero {
+  margin-top: 60px;
   height: 100vh;
   background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2)),
               url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');
@@ -56,6 +54,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* BUTTON */
 .btn {
   background: #e50914;
   color: white;
@@ -66,6 +65,7 @@ body {
   cursor: pointer;
 }
 
+/* SECTIONS */
 .section {
   padding: 60px 20px;
   text-align: center;
@@ -91,7 +91,13 @@ body {
 </style>
 
 </head>
+
 <body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <img src="logo.png" class="logo">
+</div>
 
 <!-- HERO -->
 <div class="hero">
